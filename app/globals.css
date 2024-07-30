@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.custom-overlay {
+    background-color: rgba(0, 0, 0, 0.4); 
+    transition: 0.5s;
+  }
+
+.hoverEffectt:hover .custom-overlay{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.saclezoom{
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.parentzoom:hover .saclezoom{
+    transform: scale(1.5);
+}
+
+
+.search-input{
+    border-right: none;
+    border-radius: 20px 0px 0px 20px;
+    font-weight: bold;
+    color: white;
+    background: rgba(255, 255, 255, 0.053); 
+    backdrop-filter: blur(3px);
+    border: 2px rgba(255, 255, 255, 0.715) solid;
+    border-right: none;
+    user-select: none;
+}
+
+.search-input::placeholder {
+    color: #545151;
+    font-weight: 400px;
+}
+
+.search-button{
+    border-radius: 0px 20px 20px 0px;
+    border-left: none;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.053); 
+    backdrop-filter: blur(3px);
+    border: 2px rgba(255, 255, 255, 0.715) solid;
+    border-left: none;
+}
+
+.search-button:hover{
+    background: rgba(255, 251, 251, 0.541); 
+}
+  
+.bord{
+    border: 1px solid #000000;
+}
+
+.mrp{
+    word-spacing: 2px;
+    font-weight: 600;
+}
+
+.borde{
+    border: 3px solid #fff;
+    border-radius: 50px;
+}
+
+.c4{
+    border: 0.5px solid #B68964;
+}
+
+.center{
+    border-top: 2px solid gray;
+    
+}
+
+
+
+
