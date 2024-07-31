@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
           <div className='flex flex-col justify-between md:h-[200px] md:items-center w-full'>
             <div>
-              <p className="text-lg font-semibold mb-2">Sign up for updates from YEU</p>
+              <p className="text-lg font-semibold mb-2">Sign up for updates from KU KU FM</p>
               <form className="flex">
                 <input
                   type="email"
