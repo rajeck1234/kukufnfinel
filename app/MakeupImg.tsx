@@ -12,7 +12,7 @@ const MakeupImg = () => {
   return (
     <>
       <div className="px-4 lg:px-0">
-        <h1 className="text-center italic text-2xl font-bold mt-8">YEU EDIT</h1>
+        <h1 className="text-center italic text-2xl font-bold mt-8">Best Stories</h1>
         <div className="grid gap-5 grid-cols-1 sm:grid-cols-3 mt-8">
           <div className="relative">
             <div className="absolute top-0 left-0 h-full w-full flex justify-center items-center bg-black hover:bg-opacity-0 duration-300 bg-opacity-30">
@@ -22,14 +22,14 @@ const MakeupImg = () => {
           </div>
           <div className="relative mt-5 sm:mt-0">
             <div className="absolute top-0 left-0 h-full w-full flex justify-center items-center bg-black hover:bg-opacity-0 duration-300 bg-opacity-30">
-              <p className="uppercase text-2xl text-white">nude makeup</p>
+              <p className="uppercase text-2xl text-white">Danger Story</p>
             </div>
             <Image className="w-full" src={Rectangle2} alt="Rectangle2" layout="responsive" />
           </div>
           <div className="relative mt-5 sm:mt-0">
             <div className="absolute top-0 left-0 h-full w-full flex justify-center items-center bg-black hover:bg-opacity-0 duration-300 bg-opacity-30">
               <div className="w-full text-center">
-                <p className="uppercase text-2xl text-white">paint</p>
+                <p className="uppercase text-2xl text-white">love</p>
                 <p className="uppercase text-2xl text-white">it</p>
                 <p className="uppercase text-2xl text-white bg-[#E8222E]">red</p>
               </div>
